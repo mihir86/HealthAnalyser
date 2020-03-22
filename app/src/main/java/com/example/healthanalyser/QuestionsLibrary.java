@@ -19,12 +19,12 @@ public class QuestionsLibrary {
             {"never","some thoughts of death","some thoughts of suicide","some attempt of suicide"},
             {"sleeping as usual","slight difficulty","sleep reduced by atleast two hours","getting less than 3 hours of sleep"},
             {"As much energy as ever","less energy than before","not enough to do much","not enough to do anything"},
-            {"yes","no"},
+            {"yes","no","sometimes","dont know,depends on my mood"},
             {"Like a roller coaster", "pretty much steady", "All blues" ,"cheerful"},
-            {"yes","no","sometimes"},
-            {"A lot", "Not much", "I dont talk to people"},
+            {"yes","no","sometimes","only when i am down" },
+            {"A lot", "Not much", "I dont talk to people", "i am an ambivert"},
             {"eating as usual", "slightly less", "skip atleast one meal", "eating less than 2 meals"},
-            {"yes", "no"}
+            {"yes", "no","sometimes","a lot of times" }
             {"alamost everyday", "several days", "seldom", "never"}
     };
     private int weights[][] = {
@@ -32,12 +32,12 @@ public class QuestionsLibrary {
             {0,6,6,12},
             {0,2,4,8},
             {0,2,4,8},
-            {4,0},
+            {8,0,2,4},
             {4,2,8,0},
-            {12,0,3},
-            {0,4,2},
+            {6,0,3,12},
+            {0,6,3,0},
             {0,2,4,8},
-            {0,2},
+            {0,8,4,2},
             {8,4,2,0}
     };
 
