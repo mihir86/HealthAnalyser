@@ -24,7 +24,7 @@ public class QuestionsLibrary {
             {"yes","no","sometimes","only when i am down" },
             {"A lot", "Not much", "I dont talk to people", "i am an ambivert"},
             {"eating as usual", "slightly less", "skip atleast one meal", "eating less than 2 meals"},
-            {"yes", "no","sometimes","a lot of times" }
+            {"yes", "no","sometimes","a lot of times" },
             {"alamost everyday", "several days", "seldom", "never"}
     };
     private int weights[][] = {

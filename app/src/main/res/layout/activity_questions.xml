@@ -4,26 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#36DEF4"
     tools:context=".Questions">
-
-    <EditText
-        android:id="@+id/ques"
-        android:layout_width="364dp"
-        android:layout_height="104dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.225" />
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="393dp"
-        android:layout_height="47dp"
+        android:layout_width="356dp"
+        android:layout_height="53dp"
         android:text="Button"
+        android:textColor="#151313"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,35 +21,56 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="393dp"
-        android:layout_height="47dp"
+        android:layout_width="356dp"
+        android:layout_height="53dp"
         android:text="Button"
+        android:textColor="#151313"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.828" />
+        app:layout_constraintVertical_bias="0.845" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="393dp"
-        android:layout_height="47dp"
+        android:layout_width="356dp"
+        android:layout_height="53dp"
         android:text="Button"
+        android:textColor="#151313"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.716" />
+        app:layout_constraintVertical_bias="0.719" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="393dp"
-        android:layout_height="47dp"
+        android:layout_width="356dp"
+        android:layout_height="53dp"
         android:text="Button"
+        android:textColor="#151313"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
+        app:layout_constraintVertical_bias="0.592" />
+
+    <TextView
+        android:id="@+id/ques"
+        android:layout_width="338dp"
+        android:layout_height="129dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#100F0F"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

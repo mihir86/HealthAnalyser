@@ -61,7 +61,7 @@ public class Questions extends AppCompatActivity {
     }
 
     private void UpdateQuestion(){
-        if(qno==2)
+        if(qno==10)
             startActivity(new Intent(Questions.this,Results.class));
         else {
             ques.setText(questionsLibrary.getques(qno));
