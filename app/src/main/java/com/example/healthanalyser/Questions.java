@@ -16,7 +16,7 @@ public class Questions extends AppCompatActivity {
     private Button c3;
     private Button c4;
     private int qno = 0;
-    public int finalres = 0;
+    public static int finalres = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
