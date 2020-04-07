@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Results"></activity>
+        <activity android:name=".TxtResults"></activity>
+        <activity android:name=".TxtAnalyse" />
+        <activity android:name=".Results" />
         <activity android:name=".Questions" />
         <activity android:name=".MainActivity">
             <intent-filter>
